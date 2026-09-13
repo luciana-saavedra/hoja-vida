@@ -43,6 +43,11 @@
                 📄 Descargar CV en PDF
             </a>
         </p>
+
+        <button id="modo_btn" type="button">
+            🌙 Cambiar modo
+        </button>
+
     </header>
 
     <hr>
@@ -332,6 +337,11 @@
         </p>
 
         <!-- Formulario de contacto -->
+         <form id="formulario_contacto"
+                action="#"
+                method="post"
+                aria-describedby="ayuda-contacto">
+
         <section id="contacto" aria-labelledby="titulo-contacto">
             <h2 id="titulo-contacto">Formulario de contacto</h2>
             <p id="ayuda-contacto">
@@ -405,6 +415,7 @@
                     <button type="submit">Enviar mensaje</button>
                     <button type="reset">Limpiar formulario</button>
                 </fieldset>
+            <p id="mensaje_formulario" aria-live="polite"></p>
             </form>
         </section>
 
@@ -421,6 +432,8 @@
         </p>
     </footer>
 
+    <!-- Conectamos JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
