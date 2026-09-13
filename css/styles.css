@@ -409,3 +409,29 @@ body.modo_oscuro header button {
 body.modo_oscuro header a {
     text-decoration: underline;
 }
+
+.mensaje-error {
+    color: #B85062;
+    font-weight: 600;
+}
+
+.mensaje-exito {
+    color: #4A3E56;
+    font-weight: 600;
+}
+
+dialog {
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 450px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog h3 {
+    margin-top: 0;
+}
